@@ -1,0 +1,40 @@
+html,
+body {
+    font-size: 62.5%;
+    font-family: Oswald, sans-serif;
+    margin: 0 1rem 0 1rem;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #e6e6e6;
+    margin: 0 1rem 0 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: default;
+
+}
+
+.header__text {
+    font-size: 2.5rem;
+    display: flex;
+    display: inline-block;
+    padding: 0 1rem 0.5rem 1rem;
+    align-self: center;
+}
+
+.header__text:hover {
+    background-color: #3ca916;
+    border-radius: 20rem;
+}
+
+.button__list {
+    cursor: pointer;
+}
+
+/* ##################################################### */
+
