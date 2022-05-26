@@ -58,6 +58,5 @@ p  {
 }
 .topnav__rightside__button:hover{
     text-decoration: none;
-    /* background-color:#c8c8c8; */
     background-color: #009f1c;
 }
