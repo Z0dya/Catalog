@@ -4,6 +4,8 @@ body {
     font-family: Oswald, sans-serif;
     margin: 0;
     padding: 0;
+    width:100%; 
+    overflow-x:hidden;
 }
 
 .header {
@@ -35,11 +37,14 @@ body {
     border-radius: 0.5rem;
     text-align: center;
     display: inline-block;
-    width: 16rem;
     flex-wrap: nowrap;
     height: fit-content;
     transition: background-color 0.2s ease-out,
         color 0.2s ease-out;
+}
+.button__list a{
+    display: inline-block;
+width: 16rem;
 }
 .button__list:hover{
     text-decoration: none;

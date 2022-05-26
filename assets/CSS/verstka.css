@@ -1,0 +1,10 @@
+@media (max-width:1425px){
+    .footer__nav {
+        grid-template-columns: repeat(4, 30rem);
+    }
+    .catalog{
+
+    
+    grid-template-columns: repeat(4, 20rem);
+    }
+}
