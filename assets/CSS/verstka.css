@@ -1,10 +1,66 @@
-@media (max-width:1425px){
+@media (max-width:1425px) {
     .footer__nav {
         grid-template-columns: repeat(4, 30rem);
     }
-    .catalog{
 
-    
-    grid-template-columns: repeat(4, 20rem);
+    .catalog {
+        grid-template-columns: repeat(4, 20rem);
     }
+
+    .footer__list {
+        width: 80%;
+    }
+}
+
+@media (max-width:1240px) {
+    .footer__nav {
+        grid-template-columns: repeat(4, 20rem);
+
+    }
+
+    .footer__list ul {
+        font-size: 1.4rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1205px) {
+    .catalog {
+        grid-template-columns: repeat(3, 20rem);
+    }
+
+    .navbar {
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+@media (max-width:940px) {
+    .catalog__card img {
+        width: 15rem;
+        height: 20rem;
+        object-fit:cover;
+    }
+    .header__text{
+        font-size: 1.7rem;
+        padding: 0 0 0 0;
+    }
+    .header{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .logo{
+        width: 4rem;
+        height: 4rem;
+    }
+    .topnav{
+        font-size: 1.4rem;
+        justify-content: space-evenly;
+    }
+    .topnav__rightside p{
+        padding: 0 0.5rem 0 0;
+    }
+    .topnav__rightside__button{
+        width: 10rem;
+        padding: 0 0 0 0.5rem;
+    }
+    
 }

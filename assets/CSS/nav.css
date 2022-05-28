@@ -43,10 +43,12 @@ a {
 }
 
 .filter__clear {
-    margin: 0 0 5rem 0;
+    margin: 0 0 0 0;
     color: #007F16;
     font-weight: bold;
+    cursor: pointer;
 }
+
 
 .filter__hr {
     width: 8rem;
