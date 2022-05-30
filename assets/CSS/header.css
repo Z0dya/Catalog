@@ -4,36 +4,60 @@ body {
     font-family: Oswald, sans-serif;
     margin: 0;
     padding: 0;
-    width:100%; 
-    overflow-x:hidden;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .header {
     display: flex;
-    background-color: #e6e6e6;
-    margin: 0 2rem 0 2rem;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0 10rem 0 10rem;
+
+}
+
+.lists{
+    display: flex;
     justify-content: space-between;
 }
 
-.logo {
-    cursor: pointer;
-    width: 5rem;
-    height: 5rem;
+.line-logo {
+
+    margin: 1rem 1rem 1rem 1rem;
 }
 
-.header__text {
-    font-size: 2.5rem;
+.nav {
+    display: flex;
+}
+
+
+.logo {
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.left-bar {
     display: flex;
     display: inline-block;
-    padding: 0 1rem 0.5rem 1rem;
     align-self: center;
+    margin: 0;
+}
+
+.right-bar {
+    display: flex;
+    display: inline-block;
+    align-self: center;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.head-text a {
+    padding: 2rem;
 }
 
 .button__list {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    background-color: #d9d9d9;
     border-radius: 0.5rem;
     text-align: center;
     display: inline-block;
@@ -41,13 +65,21 @@ body {
     height: fit-content;
     transition: background-color 0.2s ease-out,
         color 0.2s ease-out;
+
 }
-.button__list a{
+
+.button__list a {
     display: inline-block;
-width: 16rem;
 }
-.button__list:hover{
+
+.button__list:hover {
     text-decoration: none;
     background-color: #009f1c;
 }
 
+
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+}
