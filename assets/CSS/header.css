@@ -10,18 +10,18 @@ body {
 
 .header {
     display: flex;
-    padding: 0 10rem 0 10rem;
+    padding: 0 5rem 0 5rem;
 
 }
 
-.lists{
+.lists {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .line-logo {
-
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem;
 }
 
 .nav {
@@ -33,7 +33,7 @@ body {
     cursor: pointer;
     width: 4rem;
     height: 4rem;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .left-bar {
@@ -51,8 +51,13 @@ body {
     justify-content: space-between;
 }
 
+.ashka{
+    display: none;
+}
+
 .head-text a {
     padding: 2rem;
+    margin: 0;
 }
 
 .button__list {
@@ -82,4 +87,5 @@ ul,
 li {
     text-decoration: none;
     list-style: none;
+    padding: 0;
 }
