@@ -33,7 +33,7 @@ body {
     cursor: pointer;
     width: 4rem;
     height: 4rem;
-    padding: 2rem 1rem;
+    padding: 2rem  1rem
 }
 
 .left-bar {
@@ -73,13 +73,10 @@ body {
 
 }
 
-.button__list a {
-    display: inline-block;
-}
+
 
 .button__list:hover {
-    text-decoration: none;
-    background-color: #009f1c;
+    text-decoration: underline;
 }
 
 
