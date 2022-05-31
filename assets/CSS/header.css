@@ -33,7 +33,7 @@ body {
     cursor: pointer;
     width: 4rem;
     height: 4rem;
-    padding: 2rem  1rem
+    padding: 2rem  1rem;
 }
 
 .left-bar {
@@ -49,6 +49,7 @@ body {
     align-self: center;
     margin: 0;
     justify-content: space-between;
+    
 }
 
 .ashka {
@@ -63,14 +64,8 @@ body {
 .button__list {
     font-size: 1.5rem;
     cursor: pointer;
-    border-radius: 0.5rem;
     text-align: center;
     display: inline-block;
-    flex-wrap: nowrap;
-    height: fit-content;
-    transition: background-color 0.2s ease-out,
-        color 0.2s ease-out;
-
 }
 
 
@@ -79,6 +74,11 @@ body {
     text-decoration: underline;
 }
 
+
+.ico{
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
 ul,
 li {
