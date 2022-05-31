@@ -31,21 +31,7 @@
 
 }
 
-.footer1 {
-    grid-area: footer1;
-}
 
-.footer2 {
-    grid-area: footer2;
-}
-
-.footer3 {
-    grid-area: footer3;
-}
-
-.footer4 {
-    grid-area: footer4;
-}
 
 .footer__downlinks {
     display: flex;
