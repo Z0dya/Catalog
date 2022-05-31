@@ -6,6 +6,7 @@ p {
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
+
 }
 
 .topnav__title {
@@ -43,6 +44,13 @@ p {
     padding: 0 2rem 0 0;
 }
 
+.collect-filters{
+    display: none;
+}
+.filter__clear:hover {
+    text-decoration: underline;
+}
+
 .topnav__rightside__button {
     padding: 0 1rem 0 1rem;
     cursor: pointer;
@@ -61,3 +69,4 @@ p {
     text-decoration: none;
     background-color: #009f1c;
 }
+

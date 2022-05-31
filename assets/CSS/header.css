@@ -14,6 +14,24 @@ body {
 
 }
 
+.phone-logo {
+    height: 4rem;
+    width: 14rem;
+    object-fit: fill;
+    display: none;
+}
+
+.right-phone-ico {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1rem;
+    display: none;
+}
+
+.right-buttons-phone {
+    display: flex;
+}
+
 .lists {
     display: flex;
     justify-content: space-between;
@@ -33,7 +51,7 @@ body {
     cursor: pointer;
     width: 4rem;
     height: 4rem;
-    padding: 2rem  1rem;
+    padding: 2rem 1rem;
 }
 
 .left-bar {
@@ -49,7 +67,11 @@ body {
     align-self: center;
     margin: 0;
     justify-content: space-between;
-    
+}
+
+.right-bar ul {
+    display: flex;
+    align-items: center;
 }
 
 .ashka {
@@ -57,7 +79,7 @@ body {
 }
 
 .head-text a {
-    padding: 2rem;
+    padding: 2rem 1rem 1rem 2rem;
     margin: 0;
 }
 
@@ -75,9 +97,21 @@ body {
 }
 
 
-.ico{
+.ico {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.ico-phone {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none;
+}
+
+.nav-menu {
+    height: 4rem;
+    width: 4rem;
+    display: none;
 }
 
 ul,
