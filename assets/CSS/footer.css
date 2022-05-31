@@ -26,9 +26,25 @@
 .footer__block h4 {
     margin: 0 0 0 0;
     color: #2d2d2d;
-    padding: 3rem 0 0 1rem;
+    padding-top: 3rem;
     line-height: 1rem;
 
+}
+
+.footer1 {
+    grid-area: footer1;
+}
+
+.footer2 {
+    grid-area: footer2;
+}
+
+.footer3 {
+    grid-area: footer3;
+}
+
+.footer4 {
+    grid-area: footer4;
 }
 
 .footer__downlinks {
@@ -49,7 +65,8 @@
     align-items: center;
     font-size: 1.5rem;
 }
-.footer__language a:hover{
+
+.footer__language a:hover {
     text-decoration: underline;
 }
 
@@ -63,9 +80,10 @@
     font-size: 1.5rem;
 }
 
-.footer__list { 
+.footer__list {
     width: 70%;
 }
-.footer__list a:hover{
-text-decoration: underline;
+
+.footer__list a:hover {
+    text-decoration: underline;
 }

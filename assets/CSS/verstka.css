@@ -183,10 +183,14 @@
         column-gap: 4rem;
         row-gap: 3rem;
         margin: 0;
-
     }
 
-    .topnav {}
+    .footer__nav {
+        grid-template-areas: "footer1 footer2" "footer3 footer4";
+        grid-template-columns: repeat(2,20rem);
+        grid-template-rows: 30rem ;
+        justify-content: center;
+    }
 
     .topnav__rightside {
         padding: 1rem 0 0 0;
@@ -438,6 +442,16 @@
         width: 4rem;
         display: block;
     }
+
+    .footer__nav {
+        display: block;
+        margin-left: 3rem;
+    }
+
+    .footer__downlinks {
+        display: block;
+        line-height: 3rem;
+    }
 }
 
 
@@ -476,5 +490,10 @@
         transition: background-color 0.2s ease-out,
             color 0.2s ease-out;
         letter-spacing: 0.1rem;
+    }
+
+    .footer__list ul {
+        display: block;
+        line-height: 3.5rem;
     }
 }
