@@ -186,9 +186,9 @@
     }
 
     .footer__nav {
-        grid-template-areas: "footer1 footer2" "footer3 footer4" ;
-        grid-template-columns: repeat(2,20rem);
-        grid-template-rows: 30rem ;
+        grid-template-areas: "footer1 footer2""footer3 footer4";
+        grid-template-columns: repeat(2, 25rem);
+        grid-template-rows: 25rem;
         justify-content: center;
     }
 
@@ -199,27 +199,32 @@
     .ashka4 {
         display: none;
     }
+
     .footer1 {
         grid-area: footer1;
     }
-    
+
     .footer2 {
         grid-area: footer2;
     }
-    
+
     .footer3 {
         grid-area: footer3;
     }
-    
+
     .footer4 {
         grid-area: footer4;
     }
 
-.footer__downlinks{
-    grid-column: 1/5;
-    display: flex;
-    justify-content: space-between;
-}
+    .footer__list ul {
+        justify-content: space-around;
+    }
+
+    .footer__downlinks {
+        grid-column: 1/3;
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
 
