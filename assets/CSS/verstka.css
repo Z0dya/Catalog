@@ -186,7 +186,7 @@
     }
 
     .footer__nav {
-        grid-template-areas: "footer1 footer2" "footer3 footer4";
+        grid-template-areas: "footer1 footer2" "footer3 footer4" ;
         grid-template-columns: repeat(2,20rem);
         grid-template-rows: 30rem ;
         justify-content: center;
@@ -215,6 +215,11 @@
         grid-area: footer4;
     }
 
+.footer__downlinks{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-between;
+}
 
 }
 
