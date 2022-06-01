@@ -76,124 +76,208 @@
             <h3 class="filter"> Фильтры</h3>
             <h4 class="filter__clear"> Очистить фильтры</h4>
             <hr class="filter__hr" size="1rem" color="black">
-            <a class="filter__buttons">> Играть </a>
-            <hr class="filter__hr" size="1rem" color="black">
-            <a class="filter__buttons">> Жанр </a>
-            <hr class="filter__hr" size="1rem" color="black">
-            <a class="filter__buttons">> Функции </a>
-            <hr class="filter__hr" size="1rem" color="black">
-            <a class="filter__buttons">> Рейтинг по возрасту </a>
-        </div>
 
+
+            <div class="dropdown-nav">
+                <button onclick="myFunction1()" class="dropbtn-nav">Играть ˅</button>
+                <div id="myDropdown-nav1" class="dropdown-content-nav">
+                    <a href="#">Дата выпуска</a>
+                    <a href="#">Название A-Z</a>
+                    <a href="#">Название Z-A</a>
+                </div>
+            </div>
+            <hr class="filter__hr" size="1rem" color="black">
+
+
+            <div class="dropdown-nav">
+                <button onclick="myFunction2()" class="dropbtn-nav">Жанр ˅</button>
+                <div id="myDropdown-nav2" class="dropdown-content-nav">
+                    <a href="#">Дата выпуска</a>
+                    <a href="#">Название A-Z</a>
+                    <a href="#">Название Z-A</a>
+                </div>
+            </div>
+            <hr class="filter__hr" size="1rem" color="black">
+
+
+            <div class="dropdown-nav">
+                <button onclick="myFunction3()" class="dropbtn-nav">Функции ˅</button>
+                <div id="myDropdown-nav3" class="dropdown-content-nav">
+                    <a href="#">Дата выпуска</a>
+                    <a href="#">Название A-Z</a>
+                    <a href="#">Название Z-A</a>
+                </div>
+            </div>
+
+
+            <hr class="filter__hr" size="1rem" color="black">
+
+
+            <div class="dropdown-nav">
+                <button onclick="myFunction4()" class="dropbtn-nav">Рейтинг по возрасту ˅</button>
+                <div id="myDropdown-nav4" class="dropdown-content-nav">
+                    <a href="#">Дата выпуска</a>
+                    <a href="#">Название A-Z</a>
+                    <a href="#">Название Z-A</a>
+                </div>
+            </div>
+        </div>
 
         <div class="topnav">
             <div class="topnav__leftside">
                 <div class="topnav__title">
-                    <h3><a href="#">Консольные игры</a></h3>
-                    <h3> <a href="#">Игры для ПК</a> </h3>
+                    <h3> <a id="topnav__link1" href="#">Консольные игры</a></h3>
+                    <h3> <a id="topnav__link2" href="#">Игры для ПК</a> </h3>
                 </div>
-                <a class="collect-filters"><b>> Коллекции и <br/>фильтры </b> </a>
+                <div class="dropdown__mobile">
+                    <button onclick="myFunctionMob()" class="dropbtn-mob"><b> > Коллекции и <br /> фильтры </b>
+                    </button>
+                    <div id="myDropdown-Mob" class="dropdown-content-mob">
+                        <a href="#">Дата выпуска</a>
+                        <a href="#">Название A-Z</a>
+                        <a href="#">Название Z-A</a>
+                    </div>
+                </div>
                 <div class="topnav__title__down">
                     <h3>Все игры для консолей Xbox</h3>
                     <p>Показано результатов 1-50 из 2711</p>
                 </div>
-                <h4 class="filter__clear">Очистить фильтры</h4>
+                <h4 id="topnav__link3" class="filter__clear">Очистить фильтры</h4>
             </div>
             <div class="topnav__rightside">
                 <p>Сортировать: </p>
-                <a class="topnav__rightside__button">Рекомендуемые ˅</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Рекомендуемые ˅</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Дата выпуска</a>
+                        <a href="#">Название A-Z</a>
+                        <a href="#">Название Z-A</a>
+                    </div>
+                </div>
+
             </div>
         </div>
 
 
         <div class="catalog">
-            <div class="catalog__card">
-                <img src="/assets/image/1.png" alt="img">
-                <p class="card__new">Новинки</p>
-                <p class="card__name">Evil Dead: The Game - Deluxe Edition</p>
-                <p class="card__price">1999 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img2.png" alt="img">
-                <p class="card__new">Новинки</p>
-                <p class="card__name">World of Warships: Legends — Мифическая сила</p>
-                <p class="card__price">1500 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img3.png" alt="img">
-                <p class="card__name">ELDEN RING</p>
-                <p class="card__price">1999 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img4.png" alt="img">
-                <p class="card__name">«Стражи Галактики Marvel»: улучшение Deluxe</p>
-                <p class="card__price">1200 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img5.png" alt="img">
-                <p class="card__sale">Распродажа</p>
-                <p class="card__name">Insurgency: Sandstorm</p>
-                <p class="card__price"> <s> 1999 ₽</s> 999 ₽ </p>
-            </div>
-
-            <div class="catalog__card">
-                <img src="/assets/image/card-img6.png" alt="img">
-                <p class="card__name">Quake</p>
-                <p class="card__price">999 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img7.png" alt="img">
-                <p class="card__sale">Распродажа</p>
-                <p class="card__name">It Takes Two — Цифровая версия</p>
-                <p class="card__price"><s> 1999 ₽</s> 999 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img8.png" alt="img">
-                <p class="card__name">Halo: Коллекция Мастера Чифа</p>
-                <p class="card__price">1999 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img9.png" alt="img">
-                <p class="card__name">Gears 5</p>
-                <p class="card__price">1200 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img10.png" alt="img">
-                <p class="card__name">The Dark Pictures Anthology: Man Of Medan</p>
-                <p class="card__price">1200 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img11.png" alt="img">
-                <p class="card__name">Borderlands: Game of the Year Edition</p>
-                <p class="card__price">400 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img12.png" alt="img">
-                <p class="card__new">Новинки</p>
-                <p class="card__name">Trials® Rising</p>
-                <p class="card__price">1990 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img13.png" alt="img">
-                <p class="card__name">Assassin's Creed® Одиссея – ULTIMATE EDITION</p>
-                <p class="card__price">1990 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img14.png" alt="img">
-                <p class="card__name">Yoku's Island Express</p>
-                <p class="card__price">500 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img15.png" alt="img">
-                <p class="card__name">Sea of Thieves</p>
-                <p class="card__price">750 ₽</p>
-            </div>
-            <div class="catalog__card">
-                <img src="/assets/image/card-img16.png" alt="img">
-                <p class="card__new">Новинки</p>
-                <p class="card__name">SONIC FORCES™: стандартное цифровое издание</p>
-                <p class="card__price">999 ₽</p>
-            </div>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/1.png" alt="img">
+                    <p class="card__new">Новинки</p>
+                    <p class="card__name">Evil Dead: The Game - Deluxe Edition</p>
+                    <p class="card__price">1999 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img2.png" alt="img">
+                    <p class="card__new">Новинки</p>
+                    <p class="card__name">World of Warships: Legends — Мифическая сила</p>
+                    <p class="card__price">1500 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img3.png" alt="img">
+                    <p class="card__name">ELDEN RING</p>
+                    <p class="card__price">1999 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img4.png" alt="img">
+                    <p class="card__name">«Стражи Галактики Marvel»: улучшение Deluxe</p>
+                    <p class="card__price">1200 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img5.png" alt="img">
+                    <p class="card__sale">Распродажа</p>
+                    <p class="card__name">Insurgency: Sandstorm</p>
+                    <p class="card__price"> <s> 1999 ₽</s> 999 ₽ </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img6.png" alt="img">
+                    <p class="card__name">Quake</p>
+                    <p class="card__price">999 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img7.png" alt="img">
+                    <p class="card__sale">Распродажа</p>
+                    <p class="card__name">It Takes Two — Цифровая версия</p>
+                    <p class="card__price"><s> 1999 ₽</s> 999 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img8.png" alt="img">
+                    <p class="card__name">Halo: Коллекция Мастера Чифа</p>
+                    <p class="card__price">1999 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img9.png" alt="img">
+                    <p class="card__name">Gears 5</p>
+                    <p class="card__price">1200 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img10.png" alt="img">
+                    <p class="card__name">The Dark Pictures Anthology: Man Of Medan</p>
+                    <p class="card__price">1200 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img11.png" alt="img">
+                    <p class="card__name">Borderlands: Game of the Year Edition</p>
+                    <p class="card__price">400 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img12.png" alt="img">
+                    <p class="card__new">Новинки</p>
+                    <p class="card__name">Trials® Rising</p>
+                    <p class="card__price">1990 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img13.png" alt="img">
+                    <p class="card__name">Assassin's Creed® Одиссея – ULTIMATE EDITION</p>
+                    <p class="card__price">1990 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img14.png" alt="img">
+                    <p class="card__name">Yoku's Island Express</p>
+                    <p class="card__price">500 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img15.png" alt="img">
+                    <p class="card__name">Sea of Thieves</p>
+                    <p class="card__price">750 ₽</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="catalog__card">
+                    <img src="/assets/image/card-img16.png" alt="img">
+                    <p class="card__new">Новинки</p>
+                    <p class="card__name">SONIC FORCES™: стандартное цифровое издание</p>
+                    <p class="card__price">999 ₽</p>
+                </div>
+            </a>
         </div>
     </div>
 
@@ -242,18 +326,23 @@
                 </div>
                 <div class="footer__list">
                     <ul>
-                        <li><a href="#" >Связатся с Microsoft </a></li>
-                        <li><a href="#" >Конфиденциальность </a></li>
-                        <li><a href="#" >Условия использования </a></li>
-                        <li><a href="#" >Товарные знаки </a></li>
-                        <li><a href="#" >Уведомления сторонних компаний </a></li>
-                        <li><a href="#" >Сведения о рекламе </a></li>
+                        <li><a href="#">Связатся с Microsoft </a></li>
+                        <li><a href="#">Конфиденциальность </a></li>
+                        <li><a href="#">Условия использования </a></li>
+                        <li><a href="#">Товарные знаки </a></li>
+                        <li><a href="#">Уведомления сторонних компаний </a></li>
+                        <li><a href="#">Сведения о рекламе </a></li>
                         <li>© Microsoft 2022</li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="/assets/js/sort.js"> </script>  
+    <script src="/assets/js/active_link.js"></script>
+    <script src="/assets/js/sort_nav.js"></script>
+    <script src="/assets/js/filters_remove.js"></script>
+
 </body>
 
 
