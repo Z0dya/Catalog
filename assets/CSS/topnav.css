@@ -93,6 +93,22 @@ p {
     background-color: #009f1c;
 }
 
+
+.mobile-drop h3 {
+    margin: 1rem 0 0 1rem;
+}
+
+.moblist{
+    margin-bottom: 2rem;
+}
+
+.filter__clear_mob{
+    margin: 1rem 0 0 1rem;
+    color: #007F16;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .dropbtn {
     cursor: pointer;
     background-color: #ffffff;
