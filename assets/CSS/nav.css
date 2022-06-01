@@ -105,6 +105,11 @@ a {
         color 0.2s ease-out;
 }
 
+
+.dropdown-content-nav {
+    position:relative;
+}
+
 .dropbtn-nav:hover {
     text-decoration: none;
     background-color: #009f1c;

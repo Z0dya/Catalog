@@ -121,7 +121,6 @@ function myFunction7() {
     document.getElementById("myDropdown-nav3").classList.remove("show-nav");
     document.getElementById("myDropdown-nav4").classList.remove("show-nav");
     document.getElementById("myDropdown-nav6").classList.remove("show-nav");
-    document.getElementById("myDropdown-nav7").classList.remove("show-nav");
     document.getElementById("myDropdown-nav8").classList.remove("show-nav");
     document.getElementById("myDropdown-nav9").classList.remove("show-nav");
 }
@@ -149,7 +148,6 @@ function myFunction8() {
     document.getElementById("myDropdown-nav4").classList.remove("show-nav");
     document.getElementById("myDropdown-nav6").classList.remove("show-nav");
     document.getElementById("myDropdown-nav7").classList.remove("show-nav");
-    document.getElementById("myDropdown-nav8").classList.remove("show-nav");
     document.getElementById("myDropdown-nav9").classList.remove("show-nav");
 }
 
