@@ -73,3 +73,41 @@ window.onclick = function (event) {
         }
     }
 }
+
+function myFunction5() {
+    document.getElementById("myDropdown-nav5").classList.toggle("show-nav");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn-nav')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content-nav");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show-nav')) {
+                openDropdown.classList.remove('show-nav');
+            }
+        }
+    }
+}
+
+function myFunction6() {
+    document.getElementById("myDropdown-nav6").classList.toggle("show-nav");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn-nav')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content-nav");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show-nav')) {
+                openDropdown.classList.remove('show-nav');
+            }
+        }
+    }
+}

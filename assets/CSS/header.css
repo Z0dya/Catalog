@@ -10,7 +10,7 @@ body {
 
 .header {
     display: flex;
-    padding: 0 5rem 0 5rem;
+    padding-left: 20rem;
 
 }
 
@@ -36,6 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+
 }
 
 .line-logo {
@@ -61,12 +62,16 @@ body {
     margin: 0;
 }
 
+.left-bar ul{
+    width: 100%;
+}
+
 .right-bar {
     display: flex;
     display: inline-block;
     align-self: center;
     margin: 0;
-    justify-content: space-between;
+
 }
 
 .right-bar ul {
