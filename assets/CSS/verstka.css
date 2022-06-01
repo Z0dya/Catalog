@@ -565,6 +565,10 @@
         margin-left: 2.5rem;
     }
 
+    .drop-categ {
+        margin: 1rem 6rem 1rem 7rem;
+    }
+
     .ico {
         display: none;
     }
@@ -764,6 +768,13 @@
             color 0.2s ease-out;
     }
 
+    .mobile-drop {
+        min-width: 25rem;
+    }
+
+    .drop-categ {
+        margin: 1rem 5rem 1rem 5rem;
+    }
 
     .phonelogo {
         display: block;
@@ -786,15 +797,175 @@
         letter-spacing: 0.1rem;
     }
 
-.topnav__title__down h3{
-    font-size: 1.7rem;
-    margin-top: 1rem;
-}
+    .topnav__title__down h3 {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
 
 
 
     .footer__list ul {
         display: block;
         line-height: 3.5rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .ico-phone {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .catalog__card img {
+        width: 14rem;
+        height: 25rem;
+        object-fit: fill;
+    }
+
+    .catalog {
+        grid-template-columns: repeat(2, 16rem);
+        column-gap: 1rem;
+        grid-area: catalog;
+        row-gap: 3rem;
+        margin: 5rem 1rem;
+    }
+
+    .topnav__title {
+        width:max-content;
+    }
+
+
+    .dropmob {
+        cursor: pointer;
+        /* background-color: #ffffff; */
+        background-color: #8f1632;
+        border-radius: 1rem;
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-family: Oswald, sans-serif;
+        text-align: center;
+        padding: 0 0rem 0.3rem 0rem;
+        display: inline-block;
+        width: 24rem;
+        margin-left: 2rem;
+        height: fit-content;
+        transition: background-color 0.2s ease-out,
+            color 0.2s ease-out;
+    }
+
+    .mobile-drop {
+        min-width: 15rem;
+        max-width: 24rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .drop-categ {
+        margin-left: 2rem;
+    }
+
+    .phonelogo {
+        display: block;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        width: 12rem;
+        height: 3rem;
+    }
+    
+
+    .header {
+
+        padding: 1rem 2rem 0 2rem;
+    }
+}
+
+
+
+@media (max-width: 325px) {
+
+    .ico-phone {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
+    .catalog__card img {
+        width: 13rem;
+        height: 20rem;
+        object-fit: contain;
+    }
+
+    .catalog__card {
+        width: 10rem;
+    }
+
+    .catalog {
+        grid-template-columns: repeat(2, 14rem);
+        column-gap: 1rem;
+        grid-area: catalog;
+        row-gap: 3rem;
+        margin: 5rem 1rem;
+    }
+
+    .topnav__title {
+        width: 100%;
+    }
+
+
+    .topnav__title h3 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .dropmob {
+        cursor: pointer;
+        /* background-color: #ffffff; */
+        background-color: #8f1632;
+        border-radius: 1rem;
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-family: Oswald, sans-serif;
+        text-align: center;
+        padding: 0 0rem 0.3rem 0rem;
+        display: inline-block;
+        width: 24rem;
+        height: fit-content;
+        transition: background-color 0.2s ease-out,
+            color 0.2s ease-out;
+        margin: 0;
+    }
+
+    .mobile-drop {
+        min-width: 15rem;
+        max-width: 24rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .drop-categ {
+        margin-left: 2rem;
+    }
+
+    .phonelogo {
+        display: block;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        width: 12rem;
+        height: 3rem;
+
+    }
+
+    .topnav__title {
+        width: max-content;
+    }
+
+    .header {
+
+        padding: 1rem 1rem 0 1rem;
     }
 }
