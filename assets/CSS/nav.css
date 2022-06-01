@@ -92,7 +92,7 @@ a {
 
 .dropbtn-nav {
     cursor: pointer;
-
+    background-color: #ffffff;
     border-radius: 0.5rem;
     font-size: 1.9rem;
     font-family: Oswald, sans-serif;
