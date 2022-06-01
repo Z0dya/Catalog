@@ -810,7 +810,9 @@
     }
 }
 
-@media (max-width: 350px) {
+
+
+@media (max-width: 360px) {
 
     .ico-phone {
         padding-left: 1rem;
@@ -838,8 +840,7 @@
 
     .dropmob {
         cursor: pointer;
-        /* background-color: #ffffff; */
-        background-color: #8f1632;
+        background-color: #ffffff;
         border-radius: 1rem;
         font-size: 1.9rem;
         font-weight: bold;
